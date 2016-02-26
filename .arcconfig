@@ -1,6 +1,6 @@
 {
-      "phabricator.uri" : "http://phabricator.bodhitree3.cse.iitb.ac.in",
-      "repository.callsign": "SAFES",
+      "phabricator.uri" : "http://phabricator.example.com",
+      "repository.callsign": "DJB",
       "load": [
           "./.arclib/"
       ],

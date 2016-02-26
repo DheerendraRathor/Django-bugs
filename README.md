@@ -1,8 +1,8 @@
 # DJANGO Template Project for Phabricator
 
 ## Installation
-- Rename all occurence of 'safe' with your project name
-- Change 'SAFES' in .arcconfig file to your repository call sign on Phabricator
+- Rename all occurence of 'djbugs' with your project name
+- Change 'djbugsS' in .arcconfig file to your repository call sign on Phabricator
 - Edit `your_project/settings/conf.sample.py` to `your_project/settings/conf.py`
 
 ## Setting up local machine for development

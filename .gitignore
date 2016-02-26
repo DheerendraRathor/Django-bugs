@@ -143,4 +143,4 @@ staticfiles/*
 .phutil_module_cache
 
 !.gitkeep
-safe/settings/conf.py
+djbugs/settings/conf.py

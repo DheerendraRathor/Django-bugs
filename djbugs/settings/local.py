@@ -5,7 +5,7 @@ DJANGO_SETTINGS_MODULE for local development
 from .base_settings import *  # pylint: disable=W0614,W0401
 from .conf import *  # pylint: disable=W0614,W0401
 
-SECRET_KEY = 'safe_e!)pgbntd32!=8#c17+yr@esj*89vv9u%2+k+y(fw@t_(jeodd_iitbombay'
+SECRET_KEY = 'djbugs_e!)pgbntd32!=8#c17+yr@esj*89vv9u%2+k+y(fw@t_(jeodd_iitbombay'
 
 DEBUG = True
 
@@ -15,7 +15,7 @@ INSTALLED_APPS += [
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': DB_NAME,
         'USER': DB_USERNAME,
         'PASSWORD': DB_PASSWORD,

@@ -16,9 +16,9 @@ nodejs-legacy npm
 sudo su - postgres
 psql # Now you must be in postgresql command line mode
 
-CREATE DATABASE safe;
-CREATE USER safe WITH PASSWORD 'safe';
-GRANT ALL PRIVILEGES ON DATABASE safe TO safe;
+CREATE DATABASE djbugs;
+CREATE USER djbugs WITH PASSWORD 'djbugs';
+GRANT ALL PRIVILEGES ON DATABASE djbugs TO djbugs;
 \q
 exit
 ```
